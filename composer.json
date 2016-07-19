@@ -1,0 +1,22 @@
+{
+    "name": "maxpou/design-pattern-php",
+    "description": "TODO",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxence POUTORD",
+            "email": "john@example.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^3.1",
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit",
+        "test-coverage": "./vendor/bin/phpunit --coverage-text"
+    }
+}
