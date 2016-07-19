@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace State\Tests;
 
 use State\Car;
 use State\CarState\StopCarState;

@@ -13,7 +13,9 @@
         "phpunit/phpunit": "^5.4"
     },
     "autoload": {
-        "psr-4": {"": "src/"}
+        "psr-4": {
+            "State\\": ["DP/State/Example/src", "DP/State/Example/tests"]
+        }
     },
     "scripts": {
         "test": "./vendor/bin/phpunit",
