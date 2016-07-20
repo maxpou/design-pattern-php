@@ -7,8 +7,15 @@
          beStrictAboutOutputDuringTests="true"
          beStrictAboutTestsThatDoNotTestAnything="true"
          beStrictAboutTodoAnnotatedTests="true"
+         syntaxCheck="true"
          colors="true"
          verbose="true">
+
+     <php>
+         <ini name="display_errors" value="On" />
+         <ini name="display_startup_errors" value="On" />
+     </php>
+
     <testsuite>
         <directory suffix="Test.php">DP/*/*/tests</directory>
     </testsuite>

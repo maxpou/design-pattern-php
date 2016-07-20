@@ -14,7 +14,8 @@
     },
     "autoload": {
         "psr-4": {
-            "State\\": ["DP/State/Example/src", "DP/State/Example/tests"]
+            "State\\": ["DP/State/Example/src", "DP/State/Example/tests"],
+            "DTO\\": ["DP/DTO/Example/src", "DP/DTO/Example/tests"]
         }
     },
     "scripts": {

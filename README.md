@@ -6,7 +6,8 @@ Some Design Pattern implemented in PHP.
 
 ## Pattern Focuses
 
-* [State Pattern](/State/state.md)
+* [State Pattern](DP/State/state.md)
+* [Data Transfer Object Pattern](DP/DTO/dto.md)
 
 ## Using
 
@@ -48,8 +49,8 @@ Some Design Pattern implemented in PHP.
 
 ## TODO
 
-[ ] Factory
-[ ] Decorator
-[ ] Strategy
-[ ] Adapter
-[ ] Observer
+- [ ] Factory
+- [ ] Decorator
+- [ ] Strategy
+- [ ] Adapter
+- [ ] Observer
