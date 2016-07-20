@@ -1,11 +1,11 @@
 {
     "name": "maxpou/design-pattern-php",
-    "description": "TODO",
+    "description": "Some Design Pattern implemented in PHP",
     "license": "MIT",
     "authors": [
         {
             "name": "Maxence POUTORD",
-            "email": "john@example.com"
+            "email": "maxence.poutord@gmail.com"
         }
     ],
     "require": {
@@ -19,6 +19,7 @@
     },
     "scripts": {
         "test": "./vendor/bin/phpunit",
+        "test-dox": "./vendor/bin/phpunit --testdox",
         "test-coverage": "./vendor/bin/phpunit --coverage-text"
     }
 }
