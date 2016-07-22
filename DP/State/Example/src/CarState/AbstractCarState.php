@@ -2,7 +2,7 @@
 
 namespace State\CarState;
 
-class AbstractCarState implements CarStateInterface
+abstract class AbstractCarState implements CarStateInterface
 {
     public function start()
     {
