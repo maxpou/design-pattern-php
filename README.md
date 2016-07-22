@@ -51,6 +51,5 @@ Some Design Pattern implemented in PHP.
 
 - [ ] Factory
 - [ ] Decorator
-- [ ] Strategy
 - [ ] Adapter
 - [ ] Observer
