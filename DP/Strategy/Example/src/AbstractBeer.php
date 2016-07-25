@@ -4,6 +4,9 @@ namespace Strategy;
 
 use Strategy\DrinkBehavior\DrinkBehaviorInterface;
 
+/**
+ * Abstract Beer is the context
+ */
 abstract class AbstractBeer
 {
     /**  @var DrinkBehaviorInterface */

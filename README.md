@@ -6,8 +6,10 @@ Some Design Pattern implemented in PHP.
 
 ## Pattern Focuses
 
-* [State Pattern](DP/State/state.md)
 * [Data Transfer Object Pattern](DP/DTO/dto.md)
+* [State Pattern](DP/State/state.md)
+* [Strategy Pattern](DP/Strategy/strategy.md)
+* [Observer Pattern](DP/Observer/observer.md)
 
 ## Using
 
@@ -19,11 +21,12 @@ Some Design Pattern implemented in PHP.
     * `composer test`: classic PHPUnit
     * `composer test-dox`: test & report with TestDox format
     * `composer test-coverage`: test & generate text coverage
+    * `composer test-coverage-html`: test & generate html coverage
 
 ## License
 
 <details>
-  <summary>MIT (clic for details)</summary>
+  <summary>MIT *(clic for details)*</summary>
   The MIT License (MIT)
 
   Copyright (c) 2016 Maxence POUTORD
@@ -49,7 +52,4 @@ Some Design Pattern implemented in PHP.
 
 ## TODO
 
-- [ ] Factory
-- [ ] Decorator
-- [ ] Adapter
-- [ ] Observer
+http://www.blackwasp.co.uk/gofpatterns.aspx
