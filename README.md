@@ -7,6 +7,7 @@ Some Design Pattern implemented in PHP.
 ## Pattern Focuses
 
 * [Data Transfer Object Pattern](DP/DTO/dto.md)
+* [NullObject Pattern + NullObject&Factory Pattern](DP/NullObject/nullObject.md)
 * [State Pattern](DP/State/state.md)
 * [Strategy Pattern](DP/Strategy/strategy.md)
 * [Observer Pattern](DP/Observer/observer.md)

@@ -14,10 +14,11 @@
     },
     "autoload": {
         "psr-4": {
-            "State\\":    ["DP/State/Example/src", "DP/State/Example/tests"],
-            "DTO\\":      ["DP/DTO/Example/src", "DP/DTO/Example/tests"],
-            "Strategy\\": ["DP/Strategy/Example/src", "DP/Strategy/Example/tests"],
-            "Observer\\": ["DP/Observer/Example/src", "DP/Observer/Example/tests"]
+            "State\\":      ["DP/State/Example/src",      "DP/State/Example/tests"],
+            "DTO\\":        ["DP/DTO/Example/src",        "DP/DTO/Example/tests"],
+            "Strategy\\":   ["DP/Strategy/Example/src",   "DP/Strategy/Example/tests"],
+            "Observer\\":   ["DP/Observer/Example/src",   "DP/Observer/Example/tests"],
+            "NullObject\\": ["DP/NullObject/Example/src", "DP/NullObject/Example/tests"]
         }
     },
     "scripts": {
